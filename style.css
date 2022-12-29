@@ -18,7 +18,7 @@ body {
 
 #cabecalho .container-conta{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 #cabecalho .container-opcoes{
     display: flex;
