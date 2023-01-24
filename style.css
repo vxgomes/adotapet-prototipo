@@ -9,11 +9,21 @@ body {
     font-size: 20px;
     font-family: 'Lilita One', cursive;
     padding: 50px;
-    
+    height: 80vh;
+}
+#cabecalho-geral{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-laddingpage {
-    width: 80%;
+    width: 50%;
+    margin: 3em 0;
+}
+#cabecalho{
+    margin: auto;
 }
 
 #cabecalho .container-login{
@@ -52,7 +62,7 @@ body {
     opacity: 0.9;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
     body{
         margin: auto 0;
     }
@@ -74,7 +84,7 @@ body {
         align-items: center;
     }
     .logo-laddingpage {
-        width: 23rem;
+        width: 100%;
     
     }
     .botoes{
